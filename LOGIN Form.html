@@ -1,0 +1,251 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+    background-color: rgb(253, 255, 127);
+    display:flex;
+   
+}
+.nav .logo{
+    float:left;
+    width:20%;
+   
+
+
+}
+.nav .logo img{
+    padding:20px;
+    height: 100px;
+    width:100px;
+    border-radius:100px;
+
+}
+.nav .navcontainer{
+    float:right;
+    display:flex;
+    margin-right:1%;
+    margin-left:40%;
+    margin-top:40px;
+    padding:20px;
+    width:60%;
+    font-weight: bold;
+    font-size: medium;
+
+
+}
+.nav .navcontainer a{
+    font-size:medium;
+    text-decoration:none;
+    color:black;
+    padding:20px;
+}
+.nav .navcontainer a:hover{
+    color:blue;
+    font-size:large;
+}
+        
+  
+        h1{
+           background-color: lavenderblush;
+            color:black;
+            text-align: center;
+        }
+        form{
+            background-color: aquamarine;
+            text-align: center;
+        }
+        .register{
+            align-items: center;
+            margin-top:20px;
+        }
+        .register .container{
+            padding:20px;
+            margin:10px;
+            text-align: center;
+        }
+        .register .container .input .name{
+            padding:10px;
+            margin-left:20px;
+        }
+        footer{
+    background-color:rgb(171, 172, 175) ;
+    padding:50px;
+}
+footer .footer_logo a img{ 
+    height:100px;
+    width:100px;
+    border-radius: 100px;
+
+}
+footer .pages{
+    text-align: center;
+}
+footer .pages h3{
+    color:black;
+    font-size:20px;
+    font-family:cosmic, sans-serif;
+    padding:5px;
+}
+footer .pages a{
+    text-decoration: none;
+    margin:10px;
+    color:orange;
+    font-size:15px;
+    font-family: comic, sans-serif;
+}
+footer .pages a:hover{
+    color:white;
+}
+footer .docs{
+    text-align: center;
+}
+footer .docs h3{
+    color:black;
+    font-size:20px;
+    font-family:cosmic, sans-serif;
+    padding:5px;
+}
+footer .docs a{
+    text-decoration: none;
+    margin:10px;
+    color:orange;
+    font-size:15px;
+    font-family: comic, sans-serif;
+}
+footer .docs a:hover{
+    color:white;
+}
+footer .social{
+    text-align: center;
+}
+footer .social h3{
+    color:black;
+    font-size:20px;
+    font-family:cosmic, sans-serif;
+    padding:5px;
+}
+footer .social a{
+    text-decoration:none;
+    font-size:20px;
+    color:orange;
+    margin:10px;
+}
+footer .social a:hover{
+    color:white;
+    font-size:40;
+}
+footer .contact_us{
+    text-align: center;
+}
+footer .contact_us h3{
+    color:black;
+    font-size:20px;
+    font-family:cosmic, sans-serif;
+    padding:5px;
+}
+footer .contact_us a{
+    text-decoration:none;
+    font-size:20px;
+    color:orange;
+    margin:10px;
+}
+footer .contact_us a:hover{
+    color:white;
+    font-size:40;
+}
+
+    </style>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     
+    <nav class="nav">
+        <div class="logo">
+            <a href="index.html"> <img src="img1.jpg" width="150"></a>
+         </div>
+        <div class="navcontainer">
+           <div class="item"> <a href="index.html">Home</a></div>
+           <div class="item"> <a href="about us.html">About Us</a></div>
+            <div class="item"><a href="service.html">Service</a></div>
+                <div class="item"><a href="blog.html">Blog</a></div>
+                    <div class="item"><a href="LOGIN Form.html">Register/Login</a></div>
+                       
+        </div>
+    </nav>
+    <h1>Register</h1>
+    <form class="register" name="google-sheet-form" method="post">
+        <div class="container">
+            <div class="input">
+             <div class="name">   <input type="text" name="Name"  placeholder="name"></div>
+             <div class="name">   <input type="password" name="password" placeholder="password"></div>
+             <div class="name">   <input type="password" name="confirmpassword" placeholder="confirm password"></div>
+             <div class="name"> <input type="email" name="email" placeholder="email"></div>
+             <div class="name">  <input type="text" name="Number" placeholder="number"></div>
+             <div class="name">   <input type="text" name="Address" placeholder="address"></div>
+             <div class="name"><textarea rows="10" cols="30" name="Message" placeholder="Message"></textarea></div>
+             <div class="name"><button>submit</button></div>
+
+            </div>
+        </div>
+    </form>
+    <footer>
+        <div class="footer_logo">
+            <a href="index.html" > <img src="img1.jpg" width="150"></a>
+        </div>
+        <div class="pages">
+            <h3>Pages</h3>
+            <a href="about us.html">About Us</a>|
+            <a href="service.html">Services</a>|
+            <a href="blog.html">Blogs</a>|
+            <a href="LOGIN Form.html">Login</a>|
+            <a href="LOGIN Form.html">Sign Up</a>|
+        </div>
+        <div class="docs">
+            <h3>Documents</h3>
+            <a href="documents.html">Privacy Policy</a>
+            <a href="documents.html">Terms of Use</a>
+            <a href="documents.html">Refund Policy</a>
+        </div>
+        <div class="social">
+            <h3>Follow us</h3>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/accounts/login"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/login"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+           
+            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <div class="contact_us">
+            <h3>Contact us</h3>
+            <a href="https://api.WhatsApp.com/send?phone=+917645989762" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i>
+            </a>
+            <a href="tel: +917645989762" target="_blank"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+            <a href="mailto: support@1stop.ai" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+
+        </div>
+        <hr>
+        <p>Copyright &copy: 2021 1stop. All rights reserved</p>
+    </footer>
+    <script>
+   const scriptURL =
+       'https://script.google.com/macros/s/AKfycbxdqeaBh0dPevs0X0c2mhKZxgK5CnLzvCtmCEYZBh7OrFpCNSxG7qk2mLmqQzef-3EVEw/exec'
+   const form = document.forms['google-sheet-form']
+
+   form.addEventListener('submit', e => {
+       e.preventDefault()
+       fetch(scriptURL, {
+               method: 'POST',
+               body: new FormData(form)
+           })
+           .then(response => alert(
+               "Thanks you we will get you back soon!!!"))
+           .catch(error => console.error('Error!', error.message))
+   })
+
+</script>
+
+</body>
+</html>
